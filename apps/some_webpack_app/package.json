@@ -1,0 +1,14 @@
+{
+  "name": "some-webpack-app",
+  "version": "0.0.0",
+  "dependencies": {
+    "react": "^0.13.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --colors --hot --history-api-fallback"
+  }
+}
